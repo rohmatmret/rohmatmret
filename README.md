@@ -1,4 +1,3 @@
 ### Hi there 👋
-- I am a Web Developer especially in Backend Engineer  , using javascript & typescript as the main programming
-- 🔭 I’m currently working on Gramedia Asri Media
-- 👌🏼 I’m currently learning Python and GoLang
+- I am a Web Developer especially in Backend Engineer  Python & GO  as the main programming
+- But Also am use Reactjs & Vue for frontend
