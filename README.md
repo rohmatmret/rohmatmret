@@ -1,5 +1,5 @@
 ### Hi there 👋
-- I am a Web Developer especially in Backend Engineer Javasript , Python & GO  as the main programming
+- I am a Web Developer especially in Backend Engineer GO , Javasript & Python  as the main programming
 - But Also am use Reactjs & Vue for frontend and now im interested about cloud engineer
 
 ### Languages & Tools 🛠  
