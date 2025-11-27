@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Basketball Team Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>FAQ</h1>
+        <p>Basketball Team Manager</p>
+    </div>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> › FAQ
+        </div>
+
+        <div class="content">
+            <h1>Basketball Team Manager - Frequently Asked Questions (FAQ)</h1>
+
+<strong>Last Updated:</strong> November 27, 2025
+<strong>Version:</strong> 1.0.0
+
+<h2 id="General Questions">General Questions</h2>
+
+<h3>What is Basketball Team Manager?</h3>
+
+<p>Basketball Team Manager is a comprehensive mobile application designed to help basketball coaches, team managers, and players organize and manage their basketball teams. The app allows you to track players, schedule games and practices, record statistics, create lineups, and communicate with your team—all from your Android device.</p>
+
+<h3>Is the app free to use?</h3>
+
+<p>Yes, Basketball Team Manager is free to download and use. The app is ad-supported, meaning you may see advertisements while using the app. We may offer a premium version in the future that removes ads and provides additional features.</p>
+
+<h3>What devices are supported?</h3>
+
+<p>Basketball Team Manager supports Android devices running Android 8.0 (Oreo / API level 26) or higher.</p>
+
+<h3>Do I need an internet connection to use the app?</h3>
+
+<p>No, Basketball Team Manager works completely offline. All your data is stored locally on your device. However, an internet connection is required for:</p>
+<ul>
+<li>Initial app setup and configuration</li>
+<li>Viewing advertisements</li>
+<li>Accessing help resources and legal documents</li>
+<li>Future cloud backup features (if implemented)</li>
+</ul>
+
+<h2 id="Account & Authentication">Account & Authentication</h2>
+
+<h3>How do I create an account?</h3>
+
+<p>1. Open the Basketball Team Manager app</p>
+<p>2. Tap "Register" on the login screen</p>
+<p>3. Enter your full name, email address, and password</p>
+<p>4. Tap "Register" to create your account</p>
+<p>5. Complete the team setup process</p>
+
+<p>Note: Your credentials are stored securely and locally on your device only.</p>
+
+<h3>Is my password secure?</h3>
+
+<p>Yes. Your password is encrypted using Android's EncryptedSharedPreferences with AES256-GCM encryption. Your password never leaves your device and is not transmitted to any server.</p>
+
+<h3>What if I forget my password?</h3>
+
+<p>Since all data is stored locally on your device and there is no cloud backup, forgotten passwords cannot be recovered. You will need to reinstall the app and create a new account, which will result in losing all previously stored data.</p>
+
+<strong>Recommendation:</strong> Remember your password or use a password manager.
+
+<h3>Can I use the app on multiple devices?</h3>
+
+<p>Currently, each device maintains its own separate data. There is no cloud synchronization, so data entered on one device will not appear on another device.</p>
+
+<h2 id="Team Management">Team Management</h2>
+
+<h3>How many teams can I manage?</h3>
+
+<p>Currently, you can manage one team per app installation. The team information includes:</p>
+<ul>
+<li>Team name</li>
+<li>Coach name</li>
+<li>Founded year</li>
+<li>Home court location</li>
+</ul>
+
+<h3>Can I change my team information?</h3>
+
+<p>Yes. Navigate to Settings → Team Profile to update your team name, coach name, founded year, and home court at any time.</p>
+
+<h3>Can I delete my team?</h3>
+
+<p>You can delete your account from Settings → Team Profile → Account → Delete Account. This will permanently delete all team data, players, schedules, statistics, and lineups from your device.</p>
+
+<h2 id="Player Management">Player Management</h2>
+
+<h3>How many players can I add?</h3>
+
+<p>There is no limit to the number of players you can add to your team.</p>
+
+<h3>What information can I store for each player?</h3>
+
+<p>For each player, you can store:</p>
+<ul>
+<li><strong>Basic Information:</strong> Name, jersey number, position, email, phone number</li>
+<li><strong>Demographics:</strong> Date of birth, gender, nationality</li>
+<li><strong>Physical Attributes:</strong> Height, weight</li>
+<li><strong>Contact:</strong> Email address and phone number</li>
+<li><strong>Photo:</strong> Profile picture (from camera or gallery)</li>
+</ul>
+
+<h3>Can I add player photos?</h3>
+
+<p>Yes. You can add player photos by:</p>
+<ul>
+<li>Taking a photo with your device camera</li>
+<li>Selecting an existing photo from your gallery</li>
+</ul>
+
+<p>All photos are stored locally on your device.</p>
+
+<h3>Can I contact players from the app?</h3>
+
+<p>Yes. If you've entered a player's phone number, you can:</p>
+<ul>
+<li>Call them directly</li>
+<li>Send SMS messages</li>
+<li>Add them to your device contacts</li>
+</ul>
+
+<p>The app uses your device's default phone and messaging apps for these features.</p>
+
+<h3>How do I search for players?</h3>
+
+<p>In the Player List screen, use the search bar to search by:</p>
+<ul>
+<li>Player name</li>
+<li>Jersey number</li>
+<li>Position</li>
+</ul>
+
+<p>You can also filter players by position using the position chips.</p>
+
+<h2 id="Schedule Management">Schedule Management</h2>
+
+<h3>How do I create a game or practice?</h3>
+
+<p>1. Navigate to the Schedule tab</p>
+<p>2. Tap the "+" button</p>
+<p>3. Fill in the details:</p>
+<p>   - Opponent name or practice description</p>
+<p>   - Date and time</p>
+<p>   - Location</p>
+<p>   - Type (Game or Practice)</p>
+<p>   - Notes (optional)</p>
+<p>4. Tap "Save Schedule"</p>
+
+<h3>Can I set reminders for games?</h3>
+
+<p>Currently, the app does not have built-in reminders. This feature is planned for future updates. You can manually add events to your device's calendar.</p>
+
+<h3>Can I edit or delete schedules?</h3>
+
+<p>Yes. Tap on any schedule in the list to view details, where you can edit or delete the schedule.</p>
+
+<h2 id="Statistics Tracking">Statistics Tracking</h2>
+
+<h3>What statistics can I track?</h3>
+
+<p>For each player in each game, you can track:</p>
+<ul>
+<li><strong>Scoring:</strong> Points, Field Goals (Made/Attempted), 3-Pointers (Made/Attempted), Free Throws (Made/Attempted)</li>
+<li><strong>Rebounds:</strong> Offensive, Defensive, Total</li>
+<li><strong>Playmaking:</strong> Assists</li>
+<li><strong>Defense:</strong> Steals, Blocks</li>
+<li><strong>Errors:</strong> Turnovers, Fouls</li>
+<li><strong>Playing Time:</strong> Minutes played</li>
+</ul>
+
+<h3>How do I record statistics during a game?</h3>
+
+<p>1. Navigate to the Stats tab</p>
+<p>2. Select a schedule (game)</p>
+<p>3. Tap on a player</p>
+<p>4. Enter their statistics for that game</p>
+<p>5. Save the stats</p>
+
+<h3>Can I view player statistics history?</h3>
+
+<p>Yes. You can view cumulative statistics and per-game breakdowns for each player in the Player Details screen and Stats screens.</p>
+
+<h3>Can I export statistics?</h3>
+
+<p>Currently, statistics export is not available. This feature may be added in future updates.</p>
+
+<h2 id="Lineup Management">Lineup Management</h2>
+
+<h3>How do I create a lineup?</h3>
+
+<p>1. Navigate to the Lineup tab</p>
+<p>2. Tap "Create Lineup"</p>
+<p>3. Enter a lineup name</p>
+<p>4. Drag and drop players onto the court positions</p>
+<p>5. Save the lineup</p>
+
+<h3>Can I save multiple lineups?</h3>
+
+<p>Yes. You can create and save multiple lineups for different game situations (starting lineup, defensive lineup, etc.).</p>
+
+<h3>Can I share lineups?</h3>
+
+<p>Currently, lineup sharing is not available. You can save lineup images to your device gallery and share them manually using other apps.</p>
+
+<h2 id="Communication Features">Communication Features</h2>
+
+<h3>What communication features are available?</h3>
+
+<p>The app includes a Contact Search feature that allows you to:</p>
+<ul>
+<li>Search your device contacts</li>
+<li>View contact details</li>
+<li>Call contacts directly</li>
+<li>Send SMS messages</li>
+</ul>
+
+<p>Note: This feature requires permission to access your device contacts.</p>
+
+<h3>Does the app send messages on my behalf?</h3>
+
+<p>No. The app only opens your device's default messaging app. You maintain full control over sending messages.</p>
+
+<h2 id="Privacy & Data">Privacy & Data</h2>
+
+<h3>Where is my data stored?</h3>
+
+<p>All your data is stored locally on your device using Android's Room database. Data includes:</p>
+<ul>
+<li>Team information</li>
+<li>Player profiles and photos</li>
+<li>Game schedules</li>
+<li>Statistics</li>
+<li>Lineups</li>
+<li>Account credentials (encrypted)</li>
+</ul>
+
+<h3>Is my data sent to any servers?</h3>
+
+<p>No. Basketball Team Manager does not send your personal data, team information, or statistics to any external servers or cloud services. All data remains on your device.</p>
+
+<h3>What data do third-party services collect?</h3>
+
+<p>The app integrates with the following third-party services:</p>
+
+<strong>Firebase (Google):</strong>
+<ul>
+<li>Analytics: App usage patterns (crashes, feature usage)</li>
+<li>Performance Monitoring: App performance metrics</li>
+<li>Remote Configuration: Feature flags (no personal data)</li>
+<li>Crashlytics: Crash reports for debugging</li>
+</ul>
+
+<strong>AdMob (Google):</strong>
+<ul>
+<li>Advertising ID for personalized ads</li>
+<li>Device information for ad serving</li>
+</ul>
+
+<strong>Note:</strong> These services may collect technical and usage data. Please see our Privacy Policy for full details.
+
+<h3>Can I backup my data?</h3>
+
+<p>Currently, there is no built-in cloud backup feature. Your data is included in Android's automatic backup (if enabled on your device). You can also manually backup data by:</p>
+<ul>
+<li>Enabling Android's automatic device backup</li>
+<li>Using Android's "Backup My Data" feature in device settings</li>
+</ul>
+
+<h3>How do I delete all my data?</h3>
+
+<p>To permanently delete all data:</p>
+<p>1. Go to Settings → Team Profile → Account</p>
+<p>2. Tap "Delete Account"</p>
+<p>3. Confirm the deletion</p>
+
+<p>This will delete all data from the app. Alternatively, uninstall the app to remove all local data.</p>
+
+<h2 id="Permissions">Permissions</h2>
+
+<h3>Why does the app need camera permission?</h3>
+
+<p>Camera permission is optional and only used when you choose to take player photos. You can deny this permission and still use the app, but you won't be able to take photos with the camera.</p>
+
+<h3>Why does the app need storage/media permission?</h3>
+
+<p>Storage permission is needed to:</p>
+<ul>
+<li>Save player photos from your gallery</li>
+<li>Save lineup images</li>
+<li>Load player photos you've previously saved</li>
+</ul>
+
+<h3>Why does the app need contacts permission?</h3>
+
+<p>Contacts permission is optional and only used for the Contact Search feature, which helps you quickly find and communicate with team members. You can deny this permission and still use all other app features.</p>
+
+<h3>Why does the app need internet permission?</h3>
+
+<p>Internet permission is used for:</p>
+<ul>
+<li>Displaying advertisements (AdMob)</li>
+<li>Firebase analytics and crash reporting</li>
+<li>Fetching remote configuration</li>
+<li>Loading help and legal documents</li>
+</ul>
+
+<p>The app does NOT send your personal team data over the internet.</p>
+
+<h2 id="Ads & Premium Features">Ads & Premium Features</h2>
+
+<h3>Why am I seeing ads?</h3>
+
+<p>Basketball Team Manager is free and supported by advertising. Ads help us maintain and improve the app without charging users.</p>
+
+<h3>Can I remove ads?</h3>
+
+<p>A premium version that removes ads may be available in the future. Currently, this feature is under development.</p>
+
+<h3>What types of ads are shown?</h3>
+
+<p>The app displays banner ads and may occasionally show interstitial (full-screen) ads at appropriate transition points. We do not show ads during active gameplay or data entry.</p>
+
+<h2 id="Technical Issues">Technical Issues</h2>
+
+<h3>The app is crashing. What should I do?</h3>
+
+<p>1. Restart the app</p>
+<p>2. Clear the app cache: Settings → Apps → Basketball Team Manager → Clear Cache</p>
+<p>3. Update to the latest version from Google Play Store</p>
+<p>4. If the issue persists, uninstall and reinstall the app (this will delete local data)</p>
+
+<h3>I'm experiencing slow performance. How can I fix it?</h3>
+
+<p>1. Close other apps running in the background</p>
+<p>2. Restart your device</p>
+<p>3. Clear the app cache</p>
+<p>4. Ensure you have sufficient storage space on your device</p>
+<p>5. Update to the latest app version</p>
+
+<h3>Photos are not loading. What's wrong?</h3>
+
+<p>1. Check that you've granted storage/media permissions</p>
+<p>2. Verify that the photo file still exists on your device</p>
+<p>3. Try re-adding the photo</p>
+<p>4. Restart the app</p>
+
+<h3>The app is not responding. What should I do?</h3>
+
+<p>1. Force stop the app: Settings → Apps → Basketball Team Manager → Force Stop</p>
+<p>2. Restart the app</p>
+<p>3. If issues persist, clear app data (this will delete all local data)</p>
+
+<h2 id="Feature Requests">Feature Requests</h2>
+
+<h3>Can I request a new feature?</h3>
+
+<p>Yes! We welcome feature suggestions. Please contact us at devrohmat@gmail.com with your ideas. While we can't implement every request, we carefully consider all feedback for future updates.</p>
+
+<h3>Will there be more features in future updates?</h3>
+
+<p>Yes. We're actively developing new features including:</p>
+<ul>
+<li>Notifications for games and practices</li>
+<li>Advanced statistics and analytics</li>
+<li>Cloud backup and synchronization</li>
+<li>Team sharing and collaboration</li>
+<li>Export functionality for statistics and lineups</li>
+</ul>
+
+<h2 id="Support & Contact">Support & Contact</h2>
+
+<h3>How do I get help?</h3>
+
+<ul>
+<li><strong>In-App:</strong> Access this FAQ from Settings → About → FAQ</li>
+<li><strong>Email:</strong> Contact us at devrohmat@gmail.com</li>
+<li><strong>Play Store:</strong> Leave a review with your question/issue</li>
+</ul>
+
+<h3>How do I report a bug?</h3>
+
+<p>Please email us at devrohmat@gmail.com with:</p>
+<ul>
+<li>Description of the bug</li>
+<li>Steps to reproduce</li>
+<li>Your device model and Android version</li>
+<li>Screenshots (if applicable)</li>
+</ul>
+
+<h3>How do I leave feedback?</h3>
+
+<p>We appreciate your feedback! You can:</p>
+<ul>
+<li>Rate the app on the Google Play Store</li>
+<li>Email us at devrohmat@gmail.com</li>
+<li>Leave a review on Google Play</li>
+</ul>
+
+<p>---</p>
+
+<h2 id="Version History">Version History</h2>
+
+<strong>v1.0.0</strong> (Current)
+<ul>
+<li>Player management with photos and demographics</li>
+<li>Game and practice scheduling</li>
+<li>Comprehensive statistics tracking</li>
+<li>Lineup creation and management</li>
+<li>Contact integration</li>
+<li>Theme customization</li>
+<li>Local data storage with encryption</li>
+</ul>
+
+<p>---</p>
+
+<strong>Need More Help?</strong>
+
+<p>If your question isn't answered here, please contact us at devrohmat@gmail.com. We typically respond within 24-48 hours.</p>
+
+<strong>Legal Documents:</strong>
+<ul>
+<li><a href="PRIVACY_POLICY.md">Privacy Policy</a></li>
+<li><a href="TERMS_OF_SERVICE.md">Terms of Service</a></li>
+</ul>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Basketball Team Manager. All rights reserved.</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="terms.html">Terms</a> |
+            <a href="privacy.html">Privacy</a> |
+            <a href="mailto:devrohmat@gmail.com">Contact</a>
+        </p>
+    </div>
+</body>
+</html>

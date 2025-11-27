@@ -1,0 +1,25 @@
+# Basketball Team Manager - GitHub Pages Configuration
+
+title: Basketball Team Manager
+description: Manage your basketball team with ease - Legal Documents & Support
+baseurl: "/basketball-management-team"
+url: "https://rohmatmret.github.io"
+
+# Theme
+theme: null
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins
+plugins:
+  - jekyll-seo-tag

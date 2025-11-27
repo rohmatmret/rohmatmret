@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basketball Team Manager - Manage your basketball team with ease. Track players, schedules, statistics, and lineups.">
+    <meta name="keywords" content="basketball, team manager, sports app, statistics, lineup">
+    <title>Basketball Team Manager - Legal & Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #552583;
+            --secondary-color: #FDB927;
+            --bg-color: #f5f5f5;
+            --card-bg: #ffffff;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-color);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .card h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background: #441f69;
+        }
+
+        .footer {
+            background: var(--text-primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .app-info {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .app-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .app-info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .app-info li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .app-info li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏀 Basketball Team Manager</h1>
+        <p>Manage your basketball team with ease - Legal Documents & Support</p>
+    </div>
+
+    <div class="container">
+        <div class="app-info">
+            <h3>About Basketball Team Manager</h3>
+            <p>A comprehensive mobile application designed for basketball coaches, team managers, and players to organize and manage their basketball teams effectively.</p>
+            <ul>
+                <li>Track player profiles with photos and statistics</li>
+                <li>Schedule games and practices</li>
+                <li>Record detailed game statistics</li>
+                <li>Create and manage lineups</li>
+                <li>All data stored locally and securely on your device</li>
+                <li>Available on Android devices (API 26+)</li>
+            </ul>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">❓</div>
+                <h2>FAQ</h2>
+                <p>Frequently asked questions about features, usage, and troubleshooting.</p>
+                <a href="faq.html" class="btn">Read FAQ</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📋</div>
+                <h2>Terms of Service</h2>
+                <p>Legal terms and conditions for using Basketball Team Manager.</p>
+                <a href="terms.html" class="btn">Read Terms</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <h2>Privacy Policy</h2>
+                <p>How we protect your privacy and handle your data.</p>
+                <a href="privacy.html" class="btn">Read Policy</a>
+            </div>
+        </div>
+
+        <div class="app-info">
+            <h3>Privacy First Design</h3>
+            <p><strong>Your data stays on your device.</strong> Basketball Team Manager stores all your team information, player data, and statistics locally on your Android device. We do not collect or transmit your personal team data to our servers.</p>
+            <ul>
+                <li>Team information stored locally only</li>
+                <li>Player data never leaves your device</li>
+                <li>Statistics stored on your device</li>
+                <li>Photos saved in private app storage</li>
+                <li>Encrypted password storage (AES256-GCM)</li>
+                <li>No cloud sync (complete privacy)</li>
+            </ul>
+        </div>
+
+        <div class="app-info">
+            <h3>Contact & Support</h3>
+            <p><strong>Email:</strong> <a href="mailto:devrohmat@gmail.com" style="color: var(--primary-color);">devrohmat@gmail.com</a></p>
+            <p><strong>Response Time:</strong> 24-48 hours for general inquiries, 7 business days for privacy/legal matters</p>
+            <p><strong>App Version:</strong> 1.0.0</p>
+            <p><strong>Last Updated:</strong> November 27, 2025</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Basketball Team Manager. All rights reserved.</p>
+        <p>Developed in Indonesia 🇮🇩</p>
+        <p style="margin-top: 1rem;">
+            <a href="faq.html">FAQ</a> |
+            <a href="terms.html">Terms of Service</a> |
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
+    </div>
+</body>
+</html>
